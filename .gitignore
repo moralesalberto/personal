@@ -18,4 +18,5 @@ _yardoc
 doc/
 *.swp
 *.DS_Store
+log
 
