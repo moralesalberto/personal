@@ -1,0 +1,588 @@
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:40:22 -0400
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:41:37 -0400
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:42:32 -0400
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:44:19 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 405ms (Views: 390.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:45:27 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:45:33 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:45:41 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:45:45 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:45:57 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:46:19 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:46:36 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:47:11 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:47:28 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:48:08 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:48:13 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 51ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:48:36 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:48:48 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:49:03 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:53:16 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:55:26 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:55:43 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:56:49 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:56:56 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:59:05 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 16:59:10 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:00:33 -0400
+Processing by KeychainsController#index as HTML
+  Rendered keychains/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:01:20 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:01:20 -0400
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:02:13 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:02:13 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 76ms (Views: 53.7ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:02:47 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:02:47 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 75ms (Views: 53.3ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:03:02 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:03:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 77ms (Views: 54.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:03:17 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:03:17 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 76ms (Views: 53.9ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:03:35 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:03:35 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 76ms (Views: 54.0ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:03:38 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:03:38 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 76ms (Views: 54.1ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:04:09 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 16ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:04:09 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 77ms (Views: 53.8ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:06:20 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:06:20 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 53.8ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:06:47 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:06:47 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 77ms (Views: 53.9ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:06:59 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:06:59 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 73ms (Views: 21.8ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:07:16 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:07:16 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 78ms (Views: 55.5ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:07:25 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:07:25 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 53.5ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:07:30 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:07:30 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 70ms (Views: 20.4ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:07:39 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:07:39 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 77ms (Views: 54.0ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:07:48 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:07:48 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 77ms (Views: 54.3ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:10:02 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:10:02 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 77ms (Views: 54.3ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:10:49 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:10:49 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 77ms (Views: 54.1ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:10:51 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:10:51 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 77ms (Views: 54.9ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:10:56 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:10:56 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 78ms (Views: 55.7ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:10:58 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:10:58 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 76ms (Views: 54.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:13:41 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:13:41 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 76ms (Views: 53.9ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:13:50 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:13:50 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 77ms (Views: 54.2ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:13:57 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 16ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:13:57 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 77ms (Views: 54.4ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:14:00 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 16ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:14:00 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 80ms (Views: 56.1ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:14:10 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:14:10 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 53.7ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:14:14 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:14:14 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 53.6ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:17:51 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:17:51 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 77ms (Views: 54.5ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:17:54 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:17:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 54.0ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:18:18 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:18:18 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 78ms (Views: 55.0ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2013-10-19 17:18:21 -0400
+Processing by KeychainsController#index as HTML
+Completed 401 Unauthorized in 15ms
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-10-19 17:18:21 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/shared/_links.erb (0.8ms)
+  Rendered /Users/amorales/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.1.1/app/views/devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 76ms (Views: 54.0ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.1ms)[0m  rollback transaction

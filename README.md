@@ -1,4 +1,4 @@
-personal
+Personal
 ========
 
-web app to keep track of keychains
+A web app to keep track of keychains
