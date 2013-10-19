@@ -28,3 +28,4 @@ Feature: A user needs to log-in before using the app
     And submits the login page
     Then the user should be redirected to the login page
 
+    

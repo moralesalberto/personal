@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+
+@import "twitter/bootstrap";
+
+.app_content {
+  padding-top: 60px;
+}
+
