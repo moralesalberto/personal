@@ -61,6 +61,8 @@ group :test do
   gem 'debugger'
 end
 
+gem 'mysql2'
+
 
 gem 'devise'
 
