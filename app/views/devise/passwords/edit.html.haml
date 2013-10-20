@@ -1,0 +1,17 @@
+%div{:class => "row margin-base-vertical"}
+  %div{:class => 'col-md-6 col-md-offset-3'}
+    %div{:class => 'bordered'}
+      %h4{:class => "col-lg-offset-2"} Change your password
+      %p &nbsp;
+      = form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => {:method => :put, :class => 'form-horizontal', :role => 'form'}) do |f|
+        = devise_error_messages!
+        = f.hidden_field :reset_password_token
+        %div{:class => 'form-group'}
+          %label{:class => 'col-lg-2 control-label'} New password
+          %div{:class => 'col-lg-8'}= f.password_field :password, :autofocus => true, :class => 'form-control', :placeholder => 'Email'
+        %div{:class => 'form-group'}
+          %label{:class => 'col-lg-2 control-label'} New password confirmation
+          %div{:class => 'col-lg-8'}= f.password_field :password_confirmation, :class => 'form-control', :placeholder => 'Email'
+        %div{:class => 'form-group'}
+        %div{:class => 'form-group'}
+          %div{:class => 'col-lg-offset-2 col-lg-8'}= f.submit "Change my password", :class => "btn btn-default"
