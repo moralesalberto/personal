@@ -17,7 +17,7 @@ Feature: A user should be able to change his password
     And submits the login page
     Then the user should be shown the root page
 
-  Scenario: A user that is logged in should be able to change their password
+  Scenario: A user that that attempts to change their password should get an error if they enter the wrong current password
     When the user goes to the change password page
     And fills in current password: "thispassword!", new password: "newpasswordHere!", and new password confirmation "newpasswordHere!"
     And submits the change password form
