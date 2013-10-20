@@ -1,6 +1,12 @@
 - if(flash[:notice])
-  %div{:class => 'alert alert-info'}
-    = flash[:notice]
+  %div{:class => 'row'}
+    %div{:class => 'col-md-6 col-md-offset-3'}
+      %div{:class => 'alert alert-info alert-dismissable'}
+        %button{:type => "button", :class => "close", "data-dismiss" => 'alert', 'aria-hidden' => "true"} &times;
+        = flash[:notice]
 - if(flash[:alert])
-  %div{:class => 'alert alert-danger'}
-    = flash[:alert]
+  %div{:class => 'row'}
+    %div{:class => 'col-md-6 col-md-offset-3'}
+      %div{:class => 'alert alert-danger alert-dismissable'}
+        %button{:type => "button", :class => "close", "data-dismiss" => 'alert', 'aria-hidden' => "true"} &times;
+        = flash[:alert]
