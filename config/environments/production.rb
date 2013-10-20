@@ -67,16 +67,23 @@ Personal::Application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
 
-  # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
-  # the I18n.default_locale when a translation can not be found).
-  config.i18n.fallbacks = true
+  config.middleware.use ExceptionNotification::Rack,
+    :email => {
+    :email_prefix => "[personal] ",
+    :sender_address => %{"notifier" <smtpsender@moralitos.com>},
+    :exception_recipients => %w{alberto@moralitos.com}
+  }
 
-  # Send deprecation notices to registered listeners.
-  config.active_support.deprecation = :notify
+    # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
+    # the I18n.default_locale when a translation can not be found).
+    config.i18n.fallbacks = true
 
-  # Disable automatic flushing of the log to improve performance.
-  # config.autoflush_log = false
+    # Send deprecation notices to registered listeners.
+    config.active_support.deprecation = :notify
 
-  # Use default logging formatter so that PID and timestamp are not suppressed.
-  config.log_formatter = ::Logger::Formatter.new
+    # Disable automatic flushing of the log to improve performance.
+    # config.autoflush_log = false
+
+    # Use default logging formatter so that PID and timestamp are not suppressed.
+    config.log_formatter = ::Logger::Formatter.new
 end

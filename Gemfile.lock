@@ -81,6 +81,9 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.4)
     erubis (2.7.0)
+    exception_notification (4.0.1)
+      actionmailer (>= 3.0.4)
+      activesupport (>= 3.0.4)
     execjs (2.0.2)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
@@ -230,6 +233,7 @@ DEPENDENCIES
   database_cleaner
   debugger
   devise
+  exception_notification
   factory_girl
   guard-cucumber
   haml-rails
