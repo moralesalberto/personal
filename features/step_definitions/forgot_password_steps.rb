@@ -34,7 +34,5 @@ When(/^the user fills in the new password: "(.*?)" and submits the forgot passwo
   fill_in('user_password_confirmation', :with => new_password)
   fill_in('user_password', :with => new_password)
   click_on('Change my password')
-  puts page.html
-
 end
 
