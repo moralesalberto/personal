@@ -63,3 +63,5 @@ end
 
 
 gem 'devise'
+
+gem 'capistrano'
