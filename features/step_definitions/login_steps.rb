@@ -11,22 +11,23 @@ Then(/^the user should be redirected to the login page$/) do
   page.current_path.should eq('/users/sign_in')
 end
 
-When(/^the user enters his correct credentials in the login page$/) do
-  user = FactoryGirl.create(:user, :email => 'someuser@somecompany.com', :password => 'somepassword')
-  fill_in('user_email', :with => 'someuser@somecompany.com')
-  fill_in('user_password', :with => 'somepassword')
+And(/^is a valid user with email "(.*?)" and password "(.*?)"$/) do |email, password|
+  user = FactoryGirl.create(:user, :email => email, :password => password)
 end
 
-When(/^the user enters the incorrect password in the login page$/) do
-  user = FactoryGirl.create(:user, :email => 'someuser@somecompany.com', :password => 'somepassword')
-  fill_in('user_email', :with => 'someuser@somecompany.com')
-  fill_in('user_password', :with => 'incorrectpassword')
+When(/^the user enters his correct credentials in the login page, email: "(.*?)" and password "(.*?)"$/) do |email, password|
+  fill_in('user_email', :with => email)
+  fill_in('user_password', :with => password)
 end
 
-When(/^the user enters the incorrect email in the login page$/) do
-  user = FactoryGirl.create(:user, :email => 'someuser@somecompany.com', :password => 'somepassword')
-  fill_in('user_email', :with => 'someincorrectuser@somecompany.com')
-  fill_in('user_password', :with => 'somepassword')
+When(/^the user enters the incorrect password in the login page, email: "(.*?)" and password "(.*?)"$/) do |email, password|
+  fill_in('user_email', :with => 'someuser@somecompany.com')
+  fill_in('user_password', :with => "#{password}1234" )
+end
+
+When(/^the user enters the incorrect email in the login page, email: "(.*?)" and password "(.*?)"$/) do |email, password|
+  fill_in('user_email', :with => "wrong#{email}")
+  fill_in('user_password', :with => password)
 end
 
 And(/^submits the login page$/) do
