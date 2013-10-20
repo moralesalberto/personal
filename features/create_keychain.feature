@@ -16,6 +16,7 @@ Feature: Create a keychain record
     And password: "thepassword"
     And description: "This is a key that I use all the time"
     And submits the new keychain form
-    Then a new keychain record is created
+    Then a new keychain record is created with the name "name of the key", and password: "thepassword"
     And the user is shown the new keychain show page
+    And the admin is emailed that the keychain was shown to a user
 

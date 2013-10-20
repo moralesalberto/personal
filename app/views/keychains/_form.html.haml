@@ -1,1 +1,23 @@
+%div{:class => "row margin-base-vertical"}
+  %div{:class => 'col-md-7 col-md-offset-2'}
+    = render(:partial => 'shared/model_error_messages', :locals => {:model => @keychain})
+    %div{:class => 'panel panel-default'}
+      %div{:class => 'panel-heading'} 
+        %strong Keychain Entry
+      %div{:class => 'panel-body'}
+        = form_for(@keychain, :html => {:class => 'form'}) do |f|
+          %div{:class => 'form-group'}
+            %label Name
+            = f.text_field :name, :autofocus => true, :class => 'form-control', :placeholder => 'Keychain name'
+          %div{:class => 'form-group'}
+            %label Username
+            = f.text_field :username, :autofocus => true, :class => 'form-control', :placeholder => 'User account'
+          %div{:class => 'form-group'}
+            %label Password
+            = f.password_field :password, :class => 'form-control'
+          %div{:class => 'form-group'}
+            %label Description
+            = f.text_area :description, :class => 'form-control', :rows => 5
+          %div{:class => 'form-group'}
+            = f.submit "Save keychain", :class => "btn btn-default"
 
