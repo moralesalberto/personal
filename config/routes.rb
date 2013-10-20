@@ -4,4 +4,10 @@ Personal::Application.routes.draw do
 
   resources :keychains
 
+  resource :user, only: [:edit] do
+    collection do
+      patch 'update_password'
+    end
+  end
+
 end

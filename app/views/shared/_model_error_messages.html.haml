@@ -1,0 +1,6 @@
+- unless model.errors.blank?
+  %div{:class => 'alert alert-danger'}
+    %ul
+      - model.errors.full_messages.each do |error|
+        %li= error
+    

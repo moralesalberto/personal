@@ -1,6 +1,7 @@
 
 %div{:class => "row margin-base-vertical"}
   %div{:class => 'col-md-6 col-md-offset-3'}
+    = render(:partial => 'shared/model_error_messages', :locals => {:model => resource})
     %div{:class => 'bordered'}
       %h4{:class => "col-lg-offset-2"} Please log-in
       %p &nbsp;
