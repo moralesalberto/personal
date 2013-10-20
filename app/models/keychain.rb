@@ -1,8 +1,6 @@
 class Keychain < ActiveRecord::Base
   
 
-
-
   def password=(string)
     self.password_encrypted = Encryptor.encrypt(string)
   end

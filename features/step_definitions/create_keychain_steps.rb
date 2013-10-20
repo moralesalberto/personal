@@ -33,5 +33,10 @@ Then(/^the user is shown the new keychain show page$/) do
   page.current_path.should =~ /\/keychains\/(\d+)/
 end
 
+Then(/^the admin is emailed that the keychain "(.*?)" was shown to a user$/) do |name|
+  emails = ActionMailer::Base.deliveries.select {|email| email.subject =~ /#{name}/}
+  emails.size.should eq(1)
+  emails.first.to.first.should eq('alberto@moralitos.com')
+end
 
 

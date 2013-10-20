@@ -20,6 +20,7 @@ class KeychainsController < ApplicationController
 
   def show
     @keychain = Keychain.find(params[:id])
+    Notifications.notify_key(@keychain).deliver
   end
 
   private
