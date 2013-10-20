@@ -4,4 +4,8 @@ class KeychainsController < ApplicationController
   def index
 
   end
+
+  def new
+    @keychain = Keychain.new
+  end
 end
