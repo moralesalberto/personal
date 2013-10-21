@@ -2,6 +2,7 @@ class KeychainsController < ApplicationController
   layout 'personal'
 
   def index
+    flash.now[:warning] = "You are being monitored for all clicks on this app."
     @keychains = Keychain.all
   end
 
