@@ -1,1 +1,12 @@
-listing of keychains
+%table{:class => 'table table-bordered'}
+  %thead
+    %tr
+      %th
+        Name
+  %tbody
+    -@keychains.each do |keychain|
+      %tr
+        %td
+          = keychain.name
+
+
