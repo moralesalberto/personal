@@ -1,25 +1,24 @@
 %div{:class => "row margin-base-vertical"}
-  %div{:class => 'col-md-7 col-md-offset-2'}
-    %div{:class => 'panel panel-default'}
-      %div{:class => "panel-heading"} 
-        %strong Keychain
-      %div{:class => "panel-body"}
-        %dl{:class => "dl-horizontal"}
-          %dt
-            %strong Name
-          %dd= @keychain.name
-        %dl{:class => "dl-horizontal"}
-          %dt
-            %strong Username
-          %dd= @keychain.username
-        %dl{:class => "dl-horizontal"}
-          %dt
-            %strong Password
-          %dd= @keychain.password
-        %dl{:class => "dl-horizontal"}
-          %dt
-            %strong Description
-          %dd= @keychain.description
+  %div{:class => 'panel panel-default'}
+    %div{:class => "panel-heading"} 
+      %strong Keychain
+    %div{:class => "panel-body"}
+      %dl{:class => "dl-horizontal"}
+        %dt
+          %strong Name
+        %dd= @keychain.name
+      %dl{:class => "dl-horizontal"}
+        %dt
+          %strong Username
+        %dd= @keychain.username
+      %dl{:class => "dl-horizontal"}
+        %dt
+          %strong Password
+        %dd= @keychain.password
+      %dl{:class => "dl-horizontal"}
+        %dt
+          %strong Description
+        %dd= @keychain.description
 
 
 

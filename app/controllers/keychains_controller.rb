@@ -21,6 +21,7 @@ class KeychainsController < ApplicationController
   def show
     @keychain = Keychain.find(params[:id])
     Notifications.notify_key(@keychain).deliver
+    flash[:notice] = "The admin was notified that you viewed keychain #{@keychain.name}"
   end
 
   private
