@@ -73,3 +73,4 @@ gem 'devise'
 gem 'capistrano'
 
 gem 'exception_notification'
+

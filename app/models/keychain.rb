@@ -1,5 +1,6 @@
 class Keychain < ActiveRecord::Base
   
+  validates_uniqueness_of :name
 
   def password=(string)
     self.password_encrypted = Encryptor.encrypt(string)
