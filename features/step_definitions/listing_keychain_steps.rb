@@ -1,13 +1,17 @@
-Given(/^there are several keychains in the system$/) do
-  FactoryGirl.create(:keychain, :name => 'one')
-  FactoryGirl.create(:keychain, :name => 'two')
-  FactoryGirl.create(:keychain, :name => 'three')
+Given(/^there are several keychains in the system, with names "(.*?)"$/) do |names|
+  names = names.split(",").map {|name| name.strip}
+  names.each do |name|
+    FactoryGirl.create(:keychain, :name => name)
+  end
 end
 
 When(/^the user goes to the listing of keychains page$/) do
   visit(keychains_path)
 end
 
-Then(/^the list of keychains should be shown$/) do
-  page.should have_content('one')
+Then(/^the list of keychains should be shown, with names "(.*?)"$/) do |names|
+  names = names.split(",").map {|name| name.strip}
+  names.each do |name|
+    page.should have_content(name)
+  end
 end

@@ -13,7 +13,7 @@ class KeychainsController < ApplicationController
   def create
     @keychain = Keychain.new(keychain_params)
     if @keychain.save
-      redirect_to keychain_path(@keychain)
+      redirect_to keychains_path
     else
       render :new
     end
@@ -32,7 +32,7 @@ class KeychainsController < ApplicationController
   def update
     @keychain = Keychain.find(params[:id])
     if @keychain.update_attributes(keychain_params)
-      redirect_to keychain_path(@keychain)
+      redirect_to keychains_path
     else
       render :edit
     end

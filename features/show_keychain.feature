@@ -1,4 +1,4 @@
-Feature: Display a list of keychains
+Feature: Show the keychain record
   Background: A user logs into the application
     Given a user is not logged in
     And is a valid user with email "alberto@amorales.us" and password "working123"
@@ -7,9 +7,10 @@ Feature: Display a list of keychains
     When the user enters his correct credentials in the login page, email: "alberto@amorales.us" and password "working123"    
     And submits the login page
     Then the user should be shown the root page
-
-  Scenario: An authorized user sees the list of keychains
-    Given there are several keychains in the system, with names "foo, bar, other"
-    When the user goes to the listing of keychains page
-    Then the list of keychains should be shown, with names "foo, bar, other"
-
+  
+  Scenario: A user goes to see the keychain record
+    Given an existing keychain with name "foo"
+    When the user goes to view the keychain with the name "foo"
+    Then the user should be shown the keychain with the new name "foo"
+    And the show page should have a link to edit the keychain with the name "foo"
+    And the admin is emailed that the keychain "foo" was shown to a user
