@@ -11,6 +11,7 @@ Feature: Show the keychain record
   Scenario: A user goes to see the keychain record
     Given an existing keychain with name "foo"
     When the user goes to view the keychain with the name "foo"
-    Then the user should be shown the keychain with the new name "foo"
+    Then the user should be shown the keychain with the name "foo"
     And the show page should have a link to edit the keychain with the name "foo"
+    And the show page should have a link to delete the keychain with the name "foo"
     And the admin is emailed that the keychain "foo" was shown to a user

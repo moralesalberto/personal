@@ -13,8 +13,7 @@ Feature: Editing of keychains
     When the user goes to the edit keychain with the name "foo"
     And fills in the name of the keychain to "bar"
     And submits the keychain edit form
-    Then the keychain record should be updated with the new name "bar"
-    And the user should be shown the keychain with the new name "bar"
+    Then the keychain record should be updated with the name "bar"
 
   Scenario: A user attempts to edits the name of a keychain record with the same name of another keychain
     Given an existing keychain with name "first_one"

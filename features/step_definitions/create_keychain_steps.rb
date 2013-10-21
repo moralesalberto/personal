@@ -29,10 +29,6 @@ Then(/^a new keychain record is created with the name "(.*?)", and password: "(.
   keychains.first.password.should eq(password)
 end
 
-Then(/^the user is shown the new keychain show page$/) do
-  page.current_path.should =~ /\/keychains\/(\d+)/
-end
-
 Then(/^the admin is emailed that the keychain "(.*?)" was shown to a user$/) do |name|
   emails = ActionMailer::Base.deliveries.select {|email| email.subject =~ /#{name}/}
   emails.size.should eq(1)

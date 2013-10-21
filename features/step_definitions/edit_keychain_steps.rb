@@ -23,12 +23,8 @@ When(/^submits the keychain edit form$/) do
   click_on('Save keychain')
 end
 
-Then(/^the keychain record should be updated with the new name "(.*?)"$/) do |name|
+Then(/^the keychain record should be updated with the name "(.*?)"$/) do |name|
   Keychain.first.name.should eq(name)
-end
-
-Then(/^the user should be shown the keychain with the new name "(.*?)"$/) do |name|
-  page.should have_content(name)
 end
 
 Then(/^the user should be shown an error "(.*?)"$/) do |error|
