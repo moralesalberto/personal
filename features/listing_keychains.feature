@@ -11,5 +11,6 @@ Feature: Display a list of keychains
   Scenario: An authorized user sees the list of keychains
     Given there are several keychains in the system, with names "foo, bar, other"
     When the user goes to the listing of keychains page
-    Then the list of keychains should be shown, with names "foo, bar, other"
+    Then the keychains listing page is presented
+    And the list of keychains should be shown, with names "foo, bar, other"
 

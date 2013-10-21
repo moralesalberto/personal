@@ -38,6 +38,16 @@ class KeychainsController < ApplicationController
     end
   end
 
+  def destroy
+    @keychain = Keychain.find(params[:id])
+    if @keychain.destroy
+      redirect_to keychains_path
+    else
+      flash[:error] = @keychain.errors.full_messages.join(", ")
+      redirect_to keychain_path(@keychain)
+    end
+  end
+
   private
 
   def keychain_params

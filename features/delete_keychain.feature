@@ -13,9 +13,7 @@ Feature: Delete a keychain record
     When the user goes to view the keychain with the name "mouse"
     Then the user should be shown the keychain with the name "mouse"
     When the user clicks on the delete keychain link
-    Then the user should see a confirmation whether to delete the keychain with the name "mouse"
-    And the user clicks OK to the delete kechain confirmation
     Then the keychain with the name "mouse" should be deleted
-    And the user should be shown the root page
+    And the keychains listing page is presented
     
 
