@@ -1,29 +1,28 @@
-%div{:class => "row margin-base-vertical"}
-  %div{:class => 'panel panel-default'}
-    %div{:class => "panel-heading"} 
-      %strong Keychain
-      %span{:class => "pull-right"}
-        = link_to 'Delete', keychain_path(@keychain), :method => :delete, :data => {:confirm => "Are you sure you want to delete keychain #{@keychain.name}?"}
-        %span
-          &nbsp;&nbsp;
-        = link_to 'Edit', edit_keychain_path(@keychain)
-    %div{:class => "panel-body"}
-      %dl{:class => "dl-horizontal"}
-        %dt
-          %strong Name
-        %dd= @keychain.name
-      %dl{:class => "dl-horizontal"}
-        %dt
-          %strong Username
-        %dd= @keychain.username
-      %dl{:class => "dl-horizontal"}
-        %dt
-          %strong Password
-        %dd= @keychain.password
-      %dl{:class => "dl-horizontal"}
-        %dt
-          %strong Description
-        %dd= @keychain.description
+%div{:class => 'panel panel-default'}
+  %div{:class => "panel-heading"} 
+    %strong Keychain
+    %span{:class => "pull-right"}
+      = link_to 'Delete', keychain_path(@keychain), :method => :delete, :data => {:confirm => "Are you sure you want to delete keychain #{@keychain.name}?"}
+      %span
+        &nbsp;&nbsp;
+      = link_to 'Edit', edit_keychain_path(@keychain)
+  %div{:class => "panel-body"}
+    %dl{:class => "dl-horizontal"}
+      %dt
+        %strong Name
+      %dd= @keychain.name
+    %dl{:class => "dl-horizontal"}
+      %dt
+        %strong Username
+      %dd= @keychain.username
+    %dl{:class => "dl-horizontal"}
+      %dt
+        %strong Password
+      %dd= @keychain.password
+    %dl{:class => "dl-horizontal"}
+      %dt
+        %strong Description
+      %dd= @keychain.description
 
 
 

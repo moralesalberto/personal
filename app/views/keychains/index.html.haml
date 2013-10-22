@@ -1,13 +1,12 @@
-%div{:class => "row margin-base-vertical"}
-  %table{:class => 'table table-bordered table-striped'}
-    %thead
+%table{:class => 'table table-bordered table-striped'}
+  %thead
+    %tr
+      %th
+        Name
+  %tbody
+    -@keychains.each do |keychain|
       %tr
-        %th
-          Name
-    %tbody
-      -@keychains.each do |keychain|
-        %tr
-          %td
-            = link_to keychain.name, keychain_path(keychain)
+        %td
+          = link_to keychain.name, keychain_path(keychain)
 
 
