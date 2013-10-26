@@ -19,3 +19,7 @@ Then(/^the list of keychains should be shown, with names "(.*?)"$/) do |names|
     page.should have_content(name)
   end
 end
+
+Given(/^there is an input field to do the search of keychains$/) do
+  page.html.should have_selector(:xpath, '//form[@action="/keychains" and @method="get" and @id="keychain_search"]')
+end

@@ -3,7 +3,8 @@ class KeychainsController < ApplicationController
 
   def index
     flash.now[:warning] = "You are being monitored for all clicks on this app."
-    @keychains = Keychain.all
+    @q = Keychain.search(params[:q])
+    @keychains = @q.result(:distinct => true).paginate(:page => params[:page])
   end
 
   def new

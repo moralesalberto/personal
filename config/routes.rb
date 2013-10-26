@@ -2,7 +2,9 @@ Personal::Application.routes.draw do
   devise_for :users
   root 'keychains#index'
 
-  resources :keychains
+  resources :keychains do
+  end
+
 
   resource :user, only: [:edit] do
     collection do

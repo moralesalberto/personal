@@ -50,6 +50,7 @@ gem 'haml-rails'
 
 group :development do
   gem 'guard-cucumber'
+  gem 'guard-rspec'
   gem 'debugger', group: [:development, :test]
 end
 
@@ -75,3 +76,6 @@ gem 'capistrano'
 
 gem 'exception_notification'
 
+gem 'ransack'
+
+gem 'will_paginate'

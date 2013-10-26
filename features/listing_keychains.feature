@@ -14,3 +14,11 @@ Feature: Display a list of keychains
     Then the keychains listing page is presented
     And the list of keychains should be shown, with names "foo, bar, other"
 
+  Scenario: An authorized user searches for a given keychain
+    Given there are several keychains in the system, with names "one, two, three"
+    And there is an input field to do the search of keychains
+    When the user searches for keychain "one"
+    Then the keychains listing page is presented
+    And the list of keychains should be shown, with names "one"
+
+
